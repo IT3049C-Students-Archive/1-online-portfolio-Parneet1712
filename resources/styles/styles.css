@@ -11,6 +11,13 @@ h2{
   color: olivedrab;
 }
 
-#personalBackground{
-  text-align: right ;
+#programmingLanguages{
+  float: left;
+  width:30%;
+  margin:.1%;
 }
+
+#acheivements{
+  float:right;
+}
+
