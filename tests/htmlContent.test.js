@@ -32,9 +32,7 @@ describe("html content", function () {
     const scriptSources = Array.from(scriptElements).map((ele) => ele.src);
 
     expect(scriptElements.length).toBeGreaterThanOrEqual(4);
-    expect(scriptSources.map((src) => src.slice(-26))).toContain(
-      `resources/scripts/index.js`
-    );
+    expect(scriptSources.map((src) => src.slice(-26))).toContain(`resources/scripts/index.js`);
   });
 
   it("contains a link tag that references the stylesheets in resources/styles", function () {

@@ -1,0 +1,23 @@
+body{
+  background-color: bisque;
+  color: black;
+}
+
+h1{
+color: brown
+}
+
+h2{
+  color: olivedrab;
+}
+
+#programmingLanguages{
+  float: left;
+  width:30%;
+  margin:.1%;
+}
+
+#acheivements{
+  float:right;
+}
+
